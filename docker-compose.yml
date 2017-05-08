@@ -1,0 +1,6 @@
+--- 
+app: 
+  image: mongo
+  volumes:
+   - ./dbData:/data/db/
+   - ./dbTmp:/dbTmp/
